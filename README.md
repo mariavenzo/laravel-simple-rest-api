@@ -5,6 +5,7 @@ Simple Laravel REST API Server
 - Run `git clone https://github.com/mariavenzo/laravel-simple-rest-api`
 - Run `cd laravel-simple-rest-api`
 - Run `composer install`
+- Create a dabase named `laravel_simple_rest_api` or choose another name of your personal choice
 - Configure your .ENV file with your database credentials: `
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -13,10 +14,9 @@ DB_DATABASE=laravel_simple_rest_api
 DB_USERNAME=root
 DB_PASSWORD=
 `
-- Create a dabase named `laravel_simple_rest_api` or choose another name of your personal choice
 - Run `php artisan migrate`
 - Test the routes:
-  -  `GET /laravel-simple-rest-api/clientes`
+  - `GET /laravel-simple-rest-api/clientes`
   - `GET /laravel-simple-rest-api/clientes/1`
   - `POST /laravel-simple-rest-api/clientes`
   - `PUT /laravel-simple-rest-api/clientes/1`
