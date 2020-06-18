@@ -15,6 +15,7 @@ DB_USERNAME=root
 DB_PASSWORD=
 `
 - Run `php artisan migrate`
+- Run `php artisan db:seed`
 - Test the routes:
   - `GET /laravel-simple-rest-api/clientes`
   - `GET /laravel-simple-rest-api/clientes/1`
