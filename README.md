@@ -17,15 +17,15 @@ DB_PASSWORD=
 - Run `php artisan migrate`
 - Run `php artisan db:seed`
 - Test the routes:
-  - `GET /laravel-simple-rest-api/clientes`
-  - `GET /laravel-simple-rest-api/clientes/1`
-  - `POST /laravel-simple-rest-api/clientes`
-  - `PUT /laravel-simple-rest-api/clientes/1`
-  - `DELETE /laravel-simple-rest-api/clientes/1`
-  - `POST /laravel-simple-rest-api/clientes/1/planos/1`
-  - `GET /laravel-simple-rest-api/clientes/1/planos`
-  - `GET /laravel-simple-rest-api/clientes/1/planos/1`
-  - `DELETE /laravel-simple-rest-api/clientes/1/planos/1`
+  - `GET /laravel-simple-rest-api/public/api/clientes`
+  - `GET /laravel-simple-rest-api/public/api/clientes/1`
+  - `POST /laravel-simple-rest-api/public/api/clientes`
+  - `PUT /laravel-simple-rest-api/public/api/clientes/1`
+  - `DELETE /laravel-simple-rest-api/public/api/clientes/1`
+  - `POST /laravel-simple-rest-api/public/api/clientes/1/planos/1`
+  - `GET /laravel-simple-rest-api/public/api/clientes/1/planos`
+  - `GET /laravel-simple-rest-api/public/api/clientes/1/planos/1`
+  - `DELETE /laravel-simple-rest-api/public/api/clientes/1/planos/1`
 
 ### TODO's List
 - User authentication & authorization
